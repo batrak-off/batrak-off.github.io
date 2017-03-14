@@ -1,0 +1,32 @@
+//========================================================
+//                     Variables
+//=========================================================
+//Colors random
+$white: #ffffff;
+$black: #000000;
+$red:#ed2024;
+$orange: #d56e30;
+$default: #666666;
+$default-header: lighten(saturate(adjust-hue(#666666, 0.0000), 0.0000), 20.0000); //#999999
+$default-dark: lighten(saturate(adjust-hue($black, 0.0000), 0.0000), 10.1961); //#1a1a1a
+$primary: #fcc110;
+$secondary: lighten(saturate(adjust-hue($primary, 0.1176), 0.0000), 30.0000); //#ffe299
+$link-color: #0270c9;
+$danger-color: #ff0000;
+$success-color: #50b848;
+$mounth-color: #18264e;
+$leng-color:#dfe0e2;
+
+
+//Color header
+$btn-submit: #47B4DD;
+
+
+
+//Fonts
+$Exo2: 'Exo 2', sans-serif;
+$Arial: 'Arial', sans-serif;
+$Roboto: 'Roboto', sans-serif;
+$material-font: 'Linecons';
+$icons1: "\e001", "\e000", "\e007";
+$i: 0;

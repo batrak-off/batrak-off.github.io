@@ -1,0 +1,29 @@
+/*==========================================================
+                        NORMALIZE
+==========================================================*/
+img{
+	max-width: 100%;
+	width: 100%;
+}
+ul{
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	display: inline-block;
+	outline: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+a:focus {
+	outline: none;
+	text-decoration: none;
+	color: #fff;
+}
+
+button {
+	outline: none;
+}
+

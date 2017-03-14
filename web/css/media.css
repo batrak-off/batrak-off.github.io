@@ -1,0 +1,61 @@
+/*==========================================================
+                        NORMALIZE
+==========================================================*/
+img {
+  max-width: 100%;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  outline: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+button {
+  outline: none;
+}
+
+@media (max-width: 767px) {
+  header nav {
+    position: absolute;
+    right: -290px;
+    max-width: 290px;
+    width: 100%;
+    top: 121px;
+    display: none;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    background: #ffffff;
+  }
+  header nav .menu {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .nav-active {
+    display: block;
+    right: 0;
+  }
+  header .hamburger {
+    float: right;
+    display: block;
+  }
+  .modal-backdrop.in {
+    z-index: -1;
+  }
+}
