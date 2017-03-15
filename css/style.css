@@ -409,7 +409,7 @@ header .hamburger {
     height: 100%;
 
     content: '';
-
+    top: 0;
     background: rgba(0, 0, 0, .7);
 }
 
