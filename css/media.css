@@ -30,7 +30,7 @@ button {
   outline: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   header nav {
     position: absolute;
     right: -290px;
