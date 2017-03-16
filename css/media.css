@@ -44,7 +44,7 @@ button {
     display: -o-flex;
     display: flex;
     justify-content: flex-start;
-    align-content: center
+    align-items: center;
   }
 
   header .logotipe-wrap .logotipe {
