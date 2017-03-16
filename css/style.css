@@ -37,6 +37,7 @@ body {
     font: 400 16px 'Roboto', sans-serif;
 }
 
+
 header {
     line-height: 70px;
 
@@ -362,7 +363,6 @@ header .hamburger {
 }
 
 .exemple {
-    height: 100vh;
     padding: 100px 0;
 }
 
