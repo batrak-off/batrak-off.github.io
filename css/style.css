@@ -403,7 +403,7 @@ header .hamburger {
     color: #fff;
 }
 
-.exemple .wrap-images:hover:after {
+.exemple .wrap-images:after {
     position: absolute;
 
     width: 100%;
@@ -411,6 +411,9 @@ header .hamburger {
 
     content: '';
     top: 0;
+    background: rgba(0, 0, 0, 0);
+}
+.exemple .wrap-images:hover:after {
     background: rgba(0, 0, 0, .7);
 }
 
