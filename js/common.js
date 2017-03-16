@@ -253,12 +253,12 @@ $(document).ready(function(){
 			else {
 				$('body').addClass('modal-open').append('<div class="modal-backdrop nav-backdrop fade in"></div>');
 				$(this).toggleClass("is-active");
-				$('nav').addClass('nav-active');
+				$('nav').addClass('active-menu');
 
 				$('.nav-backdrop').click(function () {
 					$('.hamburger').removeClass('is-active');
 					$('body').removeClass('modal-open');
-					$('nav').removeClass('nav-active');
+					$('nav').removeClass('active-menu');
 					$(this).remove();
 				});
 

@@ -31,12 +31,21 @@ button {
 }
 
 @media (max-width: 991px) {
+
+    .active-menu {
+        display: block;
+        right: 0;
+        background: rgba(0, 0, 0, .8);
+    }
+    .hamburger--collapse .hamburger-inner {
+        background-color: #fff;
+    }
   header {
       max-width: 100%;
       height: auto;
   }
   header .logotipe-wrap {
-    padding-top: 30px;
+    padding-top: 15px;
     float: left;
     display: -webkit-flex;
     display: -moz-flex;
@@ -64,11 +73,11 @@ button {
     right: -290px;
     max-width: 290px;
     width: 100%;
-    top: 121px;
+    top: 120px;
     display: none;
     -webkit-transition: all .3s;
     transition: all .3s;
-    background: #ffffff;
+    background: rgba(0, 0, 0, .8);
   }
   header nav .menu {
     display: block;
