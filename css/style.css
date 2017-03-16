@@ -393,7 +393,8 @@ header .hamburger {
             transform: translate(-50%, -50%);
 }
 .exemple .wrap-images .adaptive {
-    font-size: 14px;
+    font-size: 12px;
+    margin-top: 20px;
 }
 
 .exemple .wrap-images:hover p {
