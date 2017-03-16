@@ -392,6 +392,9 @@ header .hamburger {
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
 }
+.exemple .wrap-images .adaptive {
+    font-size: 14px;
+}
 
 .exemple .wrap-images:hover p {
     z-index: 5;
@@ -408,6 +411,7 @@ header .hamburger {
 
     width: 100%;
     height: 100%;
+    transition: all .4s;
 
     content: '';
     top: 0;
