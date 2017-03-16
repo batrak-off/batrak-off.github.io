@@ -37,11 +37,15 @@ button {
   }
   header .logotipe-wrap {
     padding-top: 30px;
-      float: left;
+    float: left;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center
   }
-    header .logotipe-wrap .logotipe-name {
-        padding-left: 80px;
-    }
 
   header .logotipe-wrap .logotipe {
         float: left;
