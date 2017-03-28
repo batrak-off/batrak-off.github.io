@@ -206,14 +206,14 @@ header nav .menu li a:after {
 header nav .menu li a:hover {
     text-decoration: none;
 
-    color: #47b4dd;
+    color: #a51211;
 }
 
 header nav .menu li a:hover:after {
     -webkit-transform: translateX(0);
             transform: translateX(0);
 
-    background: #47b4dd;
+    background: #a51211;
 }
 
 header .hamburger {
@@ -249,7 +249,7 @@ header .hamburger {
 .footer ul a {
     text-transform: none;
 
-    color: #47b4dd;
+    color: #a51211;
 }
 
 .footer .right-line {
@@ -277,7 +277,7 @@ header .hamburger {
 
     text-transform: uppercase;
 
-    border: 1px solid #47b4dd;
+    border: 1px solid #a51211;
     border-radius: 0;
     background: transparent;
 }
@@ -310,7 +310,7 @@ header .hamburger {
 }
 
 .title-section span {
-    color: #47b4dd;
+    color: #a51211;
 }
 
 .flex-container {
@@ -353,16 +353,16 @@ header .hamburger {
             transition: all .9s;
     text-transform: uppercase;
 
-    color: #47b4dd;
-    border: 1px solid #47b4dd;
+    color: #a51211;
+    border: 1px solid #a51211;
     border-radius: 0;
     background: transparent;
-    box-shadow: inset 0 0 0 0 #47b4dd;
+    box-shadow: inset 0 0 0 0 #a51211;
 }
 
 .btn-submit:hover {
     color: #fff;
-    box-shadow: inset 360px 0 0 0 #47b4dd;
+    box-shadow: inset 360px 0 0 0 #a51211;
 }
 
 .first {
@@ -371,7 +371,7 @@ header .hamburger {
 
     height: 100vh;
 
-    background: url('/images/header/header.jpg') no-repeat center;
+    background: url('/images/main/fonts.png') no-repeat ;
     background-size: cover;
 }
 
@@ -383,14 +383,14 @@ main .first .logo {
     font-size: 60px;
     position: absolute;
     right: 0%;
-    top: 40%;
+    top: 50%;
     transform: translate(-50%,-50%);
     color:#fff;
 }
 
 main .first .top-btn .btn-submit {
     position: absolute;
-    top: 45%;
+    top: 55%;
     right: 13%;
     max-width: 300px;
     width: 100%;
@@ -401,6 +401,7 @@ main .first .top-btn .btn-submit {
 main .first .top-btn .btn-submit:hover {
     color: #000;
     box-shadow: inset 360px 0 0 0 #fff;
+    border-color: #a51211;
 }
 
 .first:before {
@@ -413,7 +414,7 @@ main .first .top-btn .btn-submit:hover {
 
     content: '';
 
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, .35);
 }
 
 .exemple {
@@ -495,7 +496,7 @@ main .first .top-btn .btn-submit:hover {
 }
 
 .subscribe .btn-submit {
-    border: 1px solid #47b4dd;
+    border: 1px solid #a51211;
     background: transparent;
 }
 
@@ -526,7 +527,7 @@ main .first .top-btn .btn-submit:hover {
             transition: all .5s;
     text-transform: uppercase;
 
-    color: #47b4dd;
+    color: #a51211;
 }
 
 .plan .flex-container a:hover .img-step {
