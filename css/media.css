@@ -30,11 +30,54 @@ button {
   outline: none;
 }
 
+@media (max-width:1600px) {
+    header {
+        max-width: 100%;
+        height: 100px;
+
+    }
+
+    header .logotipe-wrap {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        align-items: center;
+        padding-top: 0;
+        float: left;
+    }
+    header .logotipe-wrap .logotipe {
+        display: inline-block;
+    }
+    header .logotipe-wrap .logotipe-name {
+        display: inline-block;
+        margin-bottom: 0;
+    }
+    header nav .menu {
+        flex-flow: row wrap;
+        float: right;
+        margin-right: 30px;
+    }
+    header nav .menu li {
+        margin-bottom: 0;
+        margin-right: 10px;
+        line-height: 80px;
+
+
+    }
+    header nav .menu li:last-child {
+        margin-right: 0px;
+
+    }
+}
+
 @media (max-width: 991px) {
 
     .active-menu {
         right: 0;
         background: rgba(0, 0, 0, .8);
+        height: 100vh;
     }
     .hamburger--collapse .hamburger-inner {
         background-color: #fff;
@@ -42,6 +85,7 @@ button {
   header {
       max-width: 100%;
       height: auto;
+      z-index: 1;
   }
   header .logotipe-wrap {
     padding-top: 15px;
@@ -81,6 +125,7 @@ button {
     display: block;
     text-align: center;
     width: 100%;
+      margin-right: 0;
   }
   .nav-active {
     display: block;
@@ -90,8 +135,12 @@ button {
     float: right;
     display: block;
   }
+    header nav .menu li {
+        line-height: 1;
+        margin-bottom: 10px;
+    }
   .modal-backdrop.in {
-    z-index: -1;
+    z-index: 0;
   }
 }
 
@@ -100,5 +149,25 @@ button {
         max-width: 320px;
         width: 100%;
         margin: auto;
+    }
+
+    header .logotipe-wrap {
+        max-width: 210px;
+    }
+    .first {
+       background-position: 50% 20px;
+    }
+    main .first .logo {
+        display: none;
+    }
+    main .first .top-btn .btn-submit {
+        top: 55%;
+        right: 50%;
+        transform: translate(50%,50%);
+    }
+    .footer ul {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
     }
 }

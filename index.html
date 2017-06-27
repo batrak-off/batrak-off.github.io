@@ -29,7 +29,8 @@
    		<!-- Theme Bootstrap
    		<link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap-theme.min.css"> -->
    		<!-- 	Google Fonts 	-->
-           <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Electrolize" rel="stylesheet">
 
    		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
 
@@ -55,6 +56,7 @@
    		<!-- Map Script -->
    		<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBMIdjyZmJPMrW7Kq2S9u-xmMIJnrIRMIg&amp;amp;amp;sensor=false"></script>
    		<!-- Common Script -->
+   		<script src="js/viewport.js"></script>
    		<script src="js/common.js"></script>
 </head>
 <body>
@@ -63,7 +65,7 @@
 
            <div class="logotipe-wrap">
               <a href="/index.html" class="logotipe">
-                 <img src="/images/header/logo.jpg" alt="Batrakov">
+                 <img src="/images/main/avatar.png" alt="Batrakov">
               </a>
 
                 <div class="logotipe-name">
@@ -78,13 +80,13 @@
             <!--  Menu block  -->
                 <ul class="menu">
                     <li id="menu-list">
-                        <a href="/index.html" class="active-link">Главная</a>
+                        <a href="#first" class="active-link">Главная</a>
                     </li>
                     <li class="menu-list">
-                        <a href="/conference.html">Конференция</a>
+                        <a href="#exemple">Работы</a>
                     </li>
                     <li class="menu-list">
-                        <a href="/contact.html">Контакты</a>
+                        <a href="#footer">Контакты</a>
                     </li>
                 </ul>
             <!--  End  block  -->
@@ -100,15 +102,20 @@
     </header>
 
     <main>
-        <section class="first">
+        <section id="first" class="first">
 
            <div class="container">
-
+                <div class="logo">
+                    Batrak-off studio
+                </div>
+                <form action="https://form.jotformeu.com/70854616309359" class="top-btn">
+                    <button type="submit" class="btn  btn-submit">Хочу верстку!</button>
+                </form>
            </div>
 
         </section>
 
-        <section class="exemple">
+        <section id="exemple" class="exemple">
             <div class="container">
                 <div class="row">
 
@@ -180,6 +187,14 @@
                                 </a>
                             </div>
                         </div>
+                        <div class="col-xss-12 col-sm-6 col-md-4">
+                            <div class="row">
+                                <a href="https://aleba-home.github.io/" class="wrap-images">
+                                    <img src="/images/main/aleba.png" alt="" class="img">
+                                    <p>Aleba</p>
+                                </a>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -194,24 +209,28 @@
                     Требуется <span>верстка сайта? </span>
                 </div>
 
-                <form action="#">
+                <form method="post" name="sub" id="sub" action="https://form.jotformeu.com/70854616309359">
+<!--
                     <div class="col-xs-12 col-sm-4">
                         <div class="form-group">
-                          <input type="text" class="form-control" placeholder="Имя" >
+                          <input type="text" class="form-control" placeholder="Имя" name="name" required="required">
+                        </div>
+                    </div>
+-->
+<!--
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="form-group">
+                          <input type="text" class="form-control" placeholder="телефон" name="tel" required="required">
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-4">
                         <div class="form-group">
-                          <input type="text" class="form-control" placeholder="телефон">
+                          <input type="email" class="form-control" placeholder="почта" name="email" required="required">
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-4">
-                        <div class="form-group">
-                          <input type="text" class="form-control" placeholder="почта">
-                        </div>
-                    </div>
+-->
                     <div class="col-xs-12">
-                        <button type="submit" class="btn btn-primary btn-submit">Оставить заявку</button>
+                        <button type="submit" class="btn btn-submit">Оставить заявку</button>
                     </div>
                 </form>
 
@@ -308,11 +327,12 @@
     </main>
 
 
-    <footer class="footer">
+    <footer id="footer" class="footer">
         <div class="container">
             <div class="row">
 
-    <!--           Right block-->
+            <div class="flex-container">
+            <!--           Right block-->
                 <div class="col-sm-6 right-line">
                     <div class="title-section">
                        Контакты
@@ -337,21 +357,28 @@
                 </div>
 
 
-    <!--        Left form    -->
+            <!--        Left form    -->
                 <div class="col-sm-6">
-                    <form action="#" class="footer-form">
+                    <form action="https://form.jotformeu.com/70854616309359" class="footer-form">
+            <!--
                         <div class="form-group">
                           <input type="text" class="form-control" placeholder="Имя" >
                         </div>
+            -->
+            <!--
                         <div class="form-group">
                           <input type="text" class="form-control" placeholder="телефон">
                         </div>
+            -->
+            <!--
                         <div class="form-group">
                           <input type="text" class="form-control" placeholder="почта">
                         </div>
+            -->
                         <button type="submit" class="btn btn-primary btn-submit">Оставить заявку</button>
                     </form>
                 </div>
+            </div>
             </div>
         </div>
     </footer>
